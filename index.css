@@ -1,0 +1,41 @@
+body {
+  text-align: center;
+}
+.main {
+  margin: 10px;
+  height: 80vh;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  column-gap: 2rem;
+}
+.grid-col {
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  margin: 10px;
+  padding: 8px;
+  background-color: rgb(186, 153, 216);
+}
+
+.option {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  column-gap: 2rem;
+}
+
+.option > button {
+  background-color: brown;
+  color: white;
+}
+
+.option > button:hover {
+  background-color: rgb(206, 89, 89);
+}
+
+.winner {
+  font-weight: bold;
+}
+.grid-col > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

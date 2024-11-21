@@ -57,7 +57,7 @@ const handleClick = (e) => {
       win.innerHTML = "Draw";
     }
     win.style.fontSize = "3rem";
-  }, 1500);
+  }, 750);
 };
 
 stone.onclick = handleClick;

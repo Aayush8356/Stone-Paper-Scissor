@@ -50,9 +50,9 @@ const handleClick = (e) => {
 
   setTimeout(() => {
     if (p < c) {
-      win.innerHTML = "Comp Win";
+      win.innerHTML = "Comp Won";
     } else if (c < p) {
-      win.innerHTML = "Player Win";
+      win.innerHTML = "Player Won";
     } else {
       win.innerHTML = "Draw";
     }
